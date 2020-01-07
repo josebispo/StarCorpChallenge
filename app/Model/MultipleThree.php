@@ -6,8 +6,8 @@
  * Time: 22:03
  */
 
-namespace Src;
-use Src\Interfaces\MultipleInterface;
+namespace App\Model;
+use App\Interfaces\MultipleInterface;
 
 class MultipleThree implements MultipleInterface
 {
@@ -23,8 +23,8 @@ class MultipleThree implements MultipleInterface
         $this->number = $number;
     }
 
-    public function getNumber() {
-        return (($this->number % 3)) ;
+    public function getMultiple() {
+        return !($this->number % 3) ;
     }
 
 

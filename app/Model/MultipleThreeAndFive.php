@@ -6,26 +6,26 @@
  * Time: 22:03
  */
 
-namespace Src;
+namespace App\Model;
 
-use Src\Interfaces\MultipleInterface;
+use App\Interfaces\MultipleInterface;
 
-class MultipleFive implements MultipleInterface
+class MultipleThreeAndFive implements MultipleInterface
 {
     public $name;
 
     public $number;
 
-    const name = 'IT';
+    const name = 'StarCorpianos';
 
     public function setNumber($number)
     {
         $this->number = $number;
     }
 
-    public function getNumber()
+    public function getMultiple()
     {
-        return (($this->number % 5));
+      return($this->number % 3 == 0) and ($this->number % 5 == 0);
     }
 
     public function getText()

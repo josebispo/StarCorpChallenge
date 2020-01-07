@@ -6,7 +6,7 @@
  * Time: 22:00
  */
 
-namespace Src\Interfaces;
+namespace App\Interfaces;
 
 interface MultipleInterface
 {

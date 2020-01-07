@@ -7,7 +7,7 @@
  */
 require __DIR__.'/vendor/autoload.php';
 
-use Src\CheckMultiples;
+use App\CheckMultiples;
 
 $check = new CheckMultiples();
 return $check->mainMultiple();
