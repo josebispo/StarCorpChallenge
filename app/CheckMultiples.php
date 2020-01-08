@@ -21,7 +21,7 @@ class CheckMultiples
      * @param int $final_number
      * Check numbers is multiples of 3 and 5 and return the relative message
      */
-    public function mainMultiple($initial_number = 1, $final_number = 40)
+    public function mainMultiple($initial_number = 1, $final_number = 100)
     {
         $CheckMultiplesProvider = [
             new MultipleThree,
