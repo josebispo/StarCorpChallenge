@@ -26,11 +26,11 @@ You can create a public repository on your GitHub account and send the link to u
 # How to run
 
 Clone this repository 
-* ###1 - Run chmod +x run.sh, inside of project root.
-* ###2 - The script will Install the Composer.
-* ###3 - Run the tests with phpunit.
-* ###4 - Request you to choose a door to the application _(check if the port is allowed before)_
-* ###5 - The application will running after these steps.
+* 1 - Run chmod +x run.sh, inside of project root.
+* 2 - The script will Install the Composer.
+* 3 - Run the tests with phpunit.
+* 4 - Request you to choose a door to the application _(check if the port is allowed before)_
+* 5 - The application will running after these steps.
 
 
 # Concept
