@@ -1,6 +1,6 @@
 {
   "name": "josebispo/star-corp-challenge",
-  "description": "StarCorp challenge, 1 to 100 multiples 3 or 5 and both",
+  "description": "StarCorp challenge, read from 1 to 100 showing the multiples 3 or 5 and both",
   "authors": [
     {
       "name": "Jose Bispo",
@@ -11,7 +11,7 @@
     "php": "^7.2"
   },
   "require-dev": {
-    "phpunit/phpunit": "^7.0"
+    "phpunit/phpunit": "^8.0"
   },
   "autoload": {
     "psr-4": {
@@ -20,10 +20,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\": "test/"
+      "Tests\\": "tests/"
     }
-  },
-  "scripts": {
-    "test": "phpunit test/"
   }
 }

@@ -12,11 +12,11 @@ use App\Interfaces\MultipleInterface;
 
 class MultipleFive implements MultipleInterface
 {
-    public $name;
+    public $message;
 
     public $number;
 
-    const name = 'IT';
+    const message = 'IT';
 
     public function setNumber($number)
     {
@@ -25,11 +25,11 @@ class MultipleFive implements MultipleInterface
 
     public function getMultiple()
     {
-        return !($this->number % 5);
+        return ! ($this->number % 5);
     }
 
     public function getText()
     {
-        return $this->name = self::name;
+        return $this->message = self::message;
     }
 }

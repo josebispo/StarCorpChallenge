@@ -7,35 +7,29 @@
  */
 
 namespace App\Model;
+
 use App\Interfaces\MultipleInterface;
 
 class MultipleThree implements MultipleInterface
 {
-
-    public $name;
+    public $message;
 
     public $number;
 
-    const name = 'StarCorp';
+    const message = 'StarCorp';
 
     public function setNumber($number)
     {
         $this->number = $number;
     }
 
-    public function getMultiple() {
-        return !($this->number % 3) ;
+    public function getMultiple()
+    {
+        return ! ($this->number % 3);
     }
 
-
-    public function getText() {
-      return $this->name = self::name;
+    public function getText()
+    {
+        return $this->message = self::message;
     }
-
-
-
-
-
-
-
 }
