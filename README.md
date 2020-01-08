@@ -27,10 +27,12 @@ You can create a public repository on your GitHub account and send the link to u
 
 Clone this repository 
 * 1 - Run chmod +x run.sh, inside of project root.
-* 2 - The script will Install the Composer.
-* 3 - Run the tests with phpunit.
-* 4 - Request you to choose a door to the application _(check if the port is allowed before)_
-* 5 - The application will running after these steps.
+* 2 - to run the script use sh run.sh or ./run.sh .
+* 3 - The script will Install the Composer.
+* 4 - The script will run the tests with phpunit.
+* 5 - The script will Request you to choose a door to the application _(check if the port is allowed before)_
+* 6 - The application will running after these steps in 127.0.0.1:port_select_before
+* 7 - Open the Browser to see the result.
 
 
 # Concept
